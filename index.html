@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #444;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample Flower Gallery</h1>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600"
+             alt="Flower 1">
+
+        <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?w=600"
+             alt="Flower 2">
+
+        <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?w=600"
+             alt="Flower 3">
+
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=600"
+             alt="Flower 4">
+    </div>
+</body>
+</html>
